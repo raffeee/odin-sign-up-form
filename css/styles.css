@@ -150,8 +150,16 @@ input {
   padding: 0 0.3em;
 }
 
-input:invalid {
-  border: 1px solid red;
+input:focus {
+  border-color: blue;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:user-valid {
+  border-color: green;
 }
 
 button,
