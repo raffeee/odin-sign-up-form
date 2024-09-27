@@ -145,13 +145,14 @@ label {
 }
 
 input {
-  border: 1px solid #E5E7EB;
+  border: 2px solid #E5E7EB;
   border-radius: 0.2em;
   padding: 0 0.3em;
 }
 
 input:focus {
   border-color: blue;
+  box-shadow: lightgray 0 3px 5px ;
 }
 
 input:user-invalid {
