@@ -67,7 +67,12 @@ div.left {
 div.right {
   width: 70vw;
   height: 100vh;
-  padding: 5em 2.5em;
+  background: #eee;
+}
+
+div.right section {
+  padding-left: 2em;
+  padding-bottom: 1em;
 }
 
 div.left img {
@@ -99,16 +104,25 @@ div.left img {
 }
 
 .cta {
-  margin-top: 5em;
+  margin-top: 3em;
+}
+
+.cta p {
+  font-size: 1.5em;
+}
+
+.cta p:last-child {
+  margin-top: 1em;
 }
 
 .sign-up {
   display: flex;
   flex-wrap: wrap;
+  background: #fff;
 }
 
 h2 {
-  padding-top: 2em;
+  padding-top: 1em;
   width: 100%;
 }
 
