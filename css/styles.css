@@ -97,3 +97,41 @@ div.left img {
   height: inherit;
   width: inherit;
 }
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  padding-top: 2em;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-top: 2em;
+}
+
+form p:nth-child(even){
+  width: 33%;
+}
+
+form p:nth-child(odd){
+  width: 66%;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  border-radius: 0.2em;
+  padding: 0 0.3em;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  display: block;
+  margin-top: 2em;
+}
