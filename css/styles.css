@@ -56,6 +56,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Align both left/right divs to each other than after */
 body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: flex;
 }
 
