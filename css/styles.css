@@ -98,6 +98,10 @@ div.left img {
   width: inherit;
 }
 
+.cta {
+  margin-top: 5em;
+}
+
 .sign-up {
   display: flex;
   flex-wrap: wrap;
