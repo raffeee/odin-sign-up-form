@@ -23,27 +23,32 @@
     <form action="" method="POST">
       <section class="sign-up">
         <h2>Let's do this!</h2>
-        <p>
+        <p class="input">
           <label for="firstname">First Name</label>
           <input type="text" id="firstname" name="firstname" size="20" required placeholder="Juan" />
+          <span class="error-msg">Please fill out this field.</span>
         </p>
-        <p>
+        <p class="input">
           <label for="lastname">Last Name</label>
           <input type="text" id="lastname" name="lastname" size="20" required placeholder="Dela Cruz" />
+          <span class="error-msg">Please fill out this field.</span>
         </p>
-        <p>
+        <p class="input">
           <label for="email" >Email</label>
           <input type="email" id="email" name="email" size="20" required placeholder="juandelacruz@gmail.com"/>
+          <span class="error-msg">Please enter a valid email address.</span>
         </p>
-        <p>
+        <p class="input">
           <label for="phonenumber">Phone Number</label>
           <input type="tel" id="phonenumber" name="phonenumber" size="20" required minlength="11" maxlength="13" pattern="\+?(?:0|63)9\d{9}" placeholder="09123456789"/>
+          <span class="error-msg">Please enter a valid phone number.</span>
         </p>
-        <p>
+        <p class="input">
           <label for="password" >Password</label>
           <input type="password" id="password" name="password" size="20" required placeholder="" />
+          <span class="error-msg">Passwords do not match.</span>
         </p>
-        <p>
+        <p class="input">
           <label for="confirm_pw">Confirm Password</label>
           <input type="password" id="confirm_pw" name="confirm_pw" size="20" required placeholder=""/>
         </p>

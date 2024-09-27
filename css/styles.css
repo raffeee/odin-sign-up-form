@@ -131,17 +131,32 @@ h2 {
   font-weight: 600;
 }
 
+.input {
+  margin: 0.5em 0;
+  height: 33%;
+}
+
 label {
   display: block;
-  margin-top: 2em;
 }
 
-.sign-up p:nth-child(even){
-  width: 25%;
+.error-msg {
+  visibility: hidden;
+  display: block;
+  font-size: 0.75em;
+  color: red;
 }
 
-.sign-up p:nth-child(odd){
-  width: 75%;
+.error-msg::before {
+  content: "❌ "
+}
+
+.input:nth-child(even){
+  width: 30%;
+}
+
+.input:nth-child(odd){
+  width: 70%;
 }
 
 input {
@@ -157,6 +172,10 @@ input:focus {
 
 input:user-invalid {
   border-color: red;
+}
+
+input:user-invalid ~ .error-msg {
+  visibility: visible;
 }
 
 input:user-valid {
