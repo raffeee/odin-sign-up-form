@@ -110,6 +110,8 @@ div.left img {
 
 .cta p {
   font-size: 1.5em;
+  font-weight: 600;
+  width: 80%;
 }
 
 .cta p:last-child {
@@ -126,6 +128,7 @@ div.left img {
 h2 {
   padding-top: 1em;
   width: 100%;
+  font-weight: 600;
 }
 
 label {
@@ -164,4 +167,10 @@ button {
   height: 2.75em;
   width: 12em;
   color: #eee;
+}
+
+p a {
+  color: rgb(26, 62, 62);
+  font-weight: 600;
+  text-decoration: none;
 }
