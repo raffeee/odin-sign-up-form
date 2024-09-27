@@ -98,7 +98,7 @@ div.left img {
   width: inherit;
 }
 
-form {
+.sign-up {
   display: flex;
   flex-wrap: wrap;
 }
@@ -113,12 +113,12 @@ label {
   margin-top: 2em;
 }
 
-form p:nth-child(even){
-  width: 33%;
+.sign-up p:nth-child(even){
+  width: 25%;
 }
 
-form p:nth-child(odd){
-  width: 66%;
+.sign-up p:nth-child(odd){
+  width: 75%;
 }
 
 input {
