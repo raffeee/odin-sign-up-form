@@ -84,13 +84,13 @@ div.left img {
 
 .logo-area {
   position: absolute;
-  top: 33%;
+  top: 30%;
   width: inherit;
-  height: 10em;
+  height: 9em;
   display: flex;
   align-items: center;
   padding: 0.5em 2em;
-  border: 2px solid gray;
+  background: rgba(100, 100, 100, 0.35);
 }
 
 .logo-area img {
